@@ -22,4 +22,5 @@ public:
     std::pair<float, std::chrono::time_point<std::chrono::system_clock>> getPh();
     void setTempComp(float temp);
 };
+
 #endif /* PH_SENSOR_H */

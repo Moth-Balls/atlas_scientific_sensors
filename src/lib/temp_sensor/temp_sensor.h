@@ -20,4 +20,5 @@ public:
     std::string checkScale();
     std::pair<float, std::chrono::system_clock::time_point> getTemp();
 };
+
 #endif /* TEMP_SENSOR_H */
