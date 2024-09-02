@@ -9,8 +9,8 @@
 class Temp_Sensor {
 private:
 
-    uint8_t tempAddress;
     std::pair<float, std::chrono::system_clock::time_point> tempValue;
+    uint8_t tempAddress;
 
 public:
 
